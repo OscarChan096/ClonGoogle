@@ -1,0 +1,151 @@
+body{
+    background-color: #202124;
+    color: #fff;
+    margin: 0px;
+    font-family: roboto;
+}
+
+header{
+    display: flex;
+}
+
+.google-pages{
+    display: inline;
+    margin-left: 80%;
+    margin-top: 1%;
+}
+
+.btn-menu{
+    width: 1.5em;
+    height: 1.5em;
+    margin: .5em;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.img-user{
+    width: 2em;
+    vertical-align: middle;
+    margin-left: .5em;
+    border: 1px solid #000;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.search-section{
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 32%;
+}
+
+#logo{
+    margin: 20px;
+    padding-left: 18%;
+}
+
+#input-search{
+    width: 100%;
+    height: 50px;
+    border: .1em solid rgb(145, 145, 145);
+    border-radius: 50px;
+    background-color: transparent;
+    margin-bottom: 5%;
+    color: #fff;
+    transition-duration: .5s;
+}
+
+
+#input-search:hover{
+    background-color: rgb(43, 43, 43);
+    border: .1em solid rgb(29, 29, 29);
+    box-shadow: 1px 1px 1px rgb(29, 29, 29);
+}
+
+#input-search:focus{
+    background-color: rgb(43, 43, 43);
+    border: .1em solid rgb(29, 29, 29);
+    box-shadow: 1px 1px 1px rgb(29, 29, 29);
+    outline: 0 none;
+}
+
+.btn-busqueda{
+    margin-left: 15%;
+}
+
+#search, #lucky{
+    height: 36px;
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    margin: 11px 4px;
+    padding: 0px 16px;
+    text-align: center;
+    line-height: 27px;
+    color: #e8eaed;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#search:hover, #lucky:hover{
+    height: 36px;
+    background-color: #303134;
+    border: 1px solid #5f6368;
+    border-radius: 4px;
+    margin: 11px 4px;
+    padding: 0px 16px;
+    text-align: center;
+    line-height: 27px;
+    color: #e8eaed;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.ofrecido-google-english{
+    margin-top: 1%;
+    margin-left: 44%;
+    color: #bdc1c6;
+    font-size: small;
+    line-height: 28px;
+}
+
+a.oge{
+    color: rgb(0, 162, 255);
+}
+
+footer{
+    width: 100%;
+    display: inline-block;
+    background-color: #171717;
+    margin-top: 8em;
+    color: #9aa0a6;
+}
+
+.country{
+    border-bottom: 1px solid #212327;
+    padding: 15px 30px;
+    font-size: 15px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+}
+
+a.ainfo{
+    color: #9aa0a6;
+    font-size: 14px;
+}
+
+a{
+    margin: .5em;
+    text-decoration: none;
+    color: #fff;
+    font-family: arial, sans-serif;
+}
+
+a:hover{
+    text-decoration: underline;
+}
